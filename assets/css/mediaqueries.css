@@ -1,0 +1,29 @@
+---------- MEDIA QUERY FOR MOBILE PHONES AND BIGGER ----------
+@media screen and (max-width: 575px) {
+    header h1, footer h2 {
+        font-size: 30px;
+    }
+
+    footer ul {
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+    }
+
+    header nav ul li a, footer ul li a {
+        font-size: 14px;
+    }
+}
+
+/* ---------- MEDIA QUERY FOR TABLETS AND BIGGER ---------- */
+@media screen and (min-width: 768px) {
+    #applications {
+        flex-direction: row;
+    }
+}
+
+/* ---------- MEDIA QUERY FOR LAPTOP AND BIGGER ---------- */
+@media screen and (min-width: 1200px) {
+    #applications {
+        flex-direction: row;
+    }
+}

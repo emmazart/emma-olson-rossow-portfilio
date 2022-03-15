@@ -21,7 +21,7 @@ body {
 /* ---------- UTILITY STYLES ----------*/
 .flex {
     display: flex;
-    align-items: flex-start;
+    /* align-items: flex-start; */
     padding: 20px;
     margin: 10px;
 }
@@ -99,13 +99,19 @@ header nav ul li a, footer ul li a {
     height: auto;
 }
 
+#about-me h2, #work h2 {
+    border-right: 2px solid var(--primary-color);
+    padding-right: 30px;
+    margin-right: 20px;
+}
+
+
 /* ---------- APPLICATION STYLES ----------*/
-/* .application {
-    display: flex;
-    flex-wrap: wrap;
 
-} */
-
+#applications {
+    padding-left: 80px;
+    flex-direction: column;
+}
 
 /* ---------- FOOTER STYLES ----------*/
 #contact-me {
@@ -118,19 +124,4 @@ header nav ul li a, footer ul li a {
     align-items: center;
     width: 100%;
     margin: 0;
-}
-/* ---------- MEDIA QUERY FOR MOBILE PHONES AND SMALLER ---------- */
-@media screen and (max-width: 575px) {
-    header h1, footer h2 {
-        font-size: 30px;
-    }
-
-    footer ul {
-        justify-content: flex-start;
-        flex-wrap: nowrap;
-    }
-
-    header nav ul li a, footer ul li a {
-        font-size: 14px;
-    }
 }
