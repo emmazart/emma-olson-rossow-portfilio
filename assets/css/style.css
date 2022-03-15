@@ -46,14 +46,14 @@ header {
     z-index: 9999;
 }
 
-header h1 {
+header h1, footer h2 {
     font-weight: bold;
     font-size: 36px;
     color: var(--tertiary-color);
     margin: 0;
 }
 
-header a {
+header a, footer a {
     text-decoration: none;
     color: var(--tertiary-color);
 }
@@ -62,7 +62,7 @@ header nav {
     padding-top: 10px;
 }
 
-header nav ul {
+header nav ul, footer ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -74,7 +74,7 @@ header nav ul {
     border-bottom: 2px solid var(--tertiary-color);
 } */
 
-header nav ul li a {
+header nav ul li a, footer ul li a {
     padding: 10px 15px;
     font-weight: lighter;
     font-size: 1.55vw;
@@ -99,4 +99,38 @@ header nav ul li a {
     height: auto;
 }
 
+/* ---------- APPLICATION STYLES ----------*/
+/* .application {
+    display: flex;
+    flex-wrap: wrap;
+
+} */
+
+
 /* ---------- FOOTER STYLES ----------*/
+#contact-me {
+    color: var(--tertiary-color);
+    background-color: var(--primary-color);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+}
+/* ---------- MEDIA QUERY FOR MOBILE PHONES AND SMALLER ---------- */
+@media screen and (max-width: 575px) {
+    header h1, footer h2 {
+        font-size: 30px;
+    }
+
+    footer ul {
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+    }
+
+    header nav ul li a, footer ul li a {
+        font-size: 14px;
+    }
+}
