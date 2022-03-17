@@ -1,5 +1,5 @@
----------- MEDIA QUERY FOR MOBILE PHONES AND BIGGER ----------
-@media screen and (min-width: 575px) {
+/* ---------- MEDIA QUERY FOR MOBILE PHONES AND SMALLER ---------- */
+@media screen and (max-width: 575px) {
     header h1, footer h2 {
         font-size: 30px;
     }
@@ -10,22 +10,38 @@
     }
 
     header nav ul li a, footer ul li a {
-        font-size: 14px;
+        font-size: 16px;
     }
 }
 
-/* ---------- MEDIA QUERY FOR TABLETS AND BIGGER ---------- */
-@media screen and (min-width: 768px) {
+/* ---------- MEDIA QUERY FOR TABLETS AND SMALLER ---------- */
+@media screen and (max-width: 730px) {
     #applications {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+    }
 
+    header h1, footer h2 {
+        font-size: 30px;
+    }
+
+    header, #contact-me {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer h2 {
+        padding: 0 0 10px 0;
+    }
+
+    header nav ul li a, footer ul li a {
+        font-size: 16px;
     }
 }
 
-/* ---------- MEDIA QUERY FOR LAPTOP AND BIGGER ---------- */
-@media screen and (min-width: 1200px) {
+/* ---------- MEDIA QUERY FOR LAPTOP AND SMALLER ---------- */
+@media screen and (max-width: 2000px) {
     #applications {
         display: flex;
         flex-direction: row;
