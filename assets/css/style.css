@@ -70,12 +70,10 @@ header nav ul, footer ul {
     list-style: none;
 }
 
-/* header nav ul li {
-    border-bottom: 2px solid var(--tertiary-color);
-} */
-
 header nav ul li a, footer ul li a {
-    padding: 10px 15px;
+    padding: 1px 4px;
+    margin: 10px 15px;
+    border-bottom: 2px solid var(--tertiary-color);
     font-weight: lighter;
     font-size: 1.55vw;
 }
@@ -103,14 +101,37 @@ header nav ul li a, footer ul li a {
     border-right: 2px solid var(--primary-color);
     padding-right: 30px;
     margin-right: 20px;
+    flex: 1 0 auto;
 }
 
 
 /* ---------- APPLICATION STYLES ----------*/
 
 #applications {
+    display: flex;
     padding-left: 80px;
     flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1 1 auto;
+}
+
+#applications h3 {
+    position: relative;
+    bottom: 55px;
+    background-color: rgba(2, 78, 118, .75);
+    padding: 15px;
+    color: var(--tertiary-color);
+    width: 100%;
+}
+
+#apps {
+    display: flex;
+    flex: 2 1 auto;
+}
+
+#apps img:focus {
+    filter: grayscale(100%);
+    background-color: aquamarine;
 }
 
 /* ---------- FOOTER STYLES ----------*/
