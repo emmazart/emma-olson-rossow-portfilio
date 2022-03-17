@@ -26,12 +26,6 @@ body {
     margin: 10px;
 }
 
-.flex-center {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
 /* ---------- HEADER STYLES ----------*/
 header {
     color: var(--tertiary-color);
@@ -129,11 +123,26 @@ header nav ul li a, footer ul li a {
     flex: 2 1 auto;
 }
 
-#apps img:focus {
-    filter: grayscale(100%);
-    background-color: aquamarine;
+#applications img {
+    transition: all .2s ease-in-out;
 }
 
+#applications img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+
+}
+
+/* ---------- source for grow code: https://travis.media/how-to-make-an-item-grow-on-hover-with-css/ ---------- */
+/* .grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: scale(1.1);
+}
+ */
+ 
 /* ---------- FOOTER STYLES ----------*/
 #contact-me {
     color: var(--tertiary-color);
