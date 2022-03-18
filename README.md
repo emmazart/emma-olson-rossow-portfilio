@@ -5,12 +5,15 @@ The purpose of this project is to create a professional portfolio showcasing my 
 
 This allows collaborators and potential employers to navigate through my work & learn more about me in a more user-friendly way than simply browsing through GitHub repositories. 
 
-## Technologies Used
+## Application Details
+
+Application is optimized for the following screen sizes: 575px, 768px, and 1200px.
+
+### Technologies Used
 - HTML
 - CSS
 
-## Outline of Application
-### Sections
+### Outline of Application
 - Header
     - Nav links to each section
 - Hero
@@ -18,19 +21,25 @@ This allows collaborators and potential employers to navigate through my work & 
     - Photo (left)
     - Text (right)
 - Work
-    - One large icon for the featured application (left)
-    - Smaller icons for additional applications (right)
+    - One large icon for the featured application
+    - Smaller icons for additional applications
 - Contact Me
     - Links to Linkedin, Github, email, etc. 
+
+Initial Wireframe of Application:
+![Initial Wireframe of Application](./assets/images/initial-wireframe.png)
 
 ### Main Files In Repository
 - index.html
 - style.css
-- reset.css
 - default.css
+- reset.css
+- mediaqueries.css
 
-## Link to Deployed Application
+## Deployed Application:
 
-## Notes/Questions
-1. underlining nav elements separately - tried a bottom border on the nav, on the li, but can't get the spaces
-2. formatting background image of hero for 100% width and a controlled height
+[(Link to deployed appliation)](https://emmazart.github.io/emma-olson-rossow-portfilio/)
+
+Screenshot of deployed application in 575px window:
+![Portfolio Application Screenshot](./assets/images/portfilio-screenshot.png)
+
