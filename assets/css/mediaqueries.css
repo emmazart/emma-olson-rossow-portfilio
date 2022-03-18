@@ -5,6 +5,19 @@
         flex-direction: row;
         flex-wrap: wrap;
     }
+
+    #profile-photo img {
+        max-width: 20%;
+    }
+
+    .apps {
+        flex-basis: 40%;
+    }
+
+    .apps:first-child {
+        flex-basis: 40%;
+    }
+
 }
 
 /* ---------- MEDIA QUERY FOR PROFILE PHOTO ---------- */
@@ -12,7 +25,16 @@
     #profile-photo img {
         max-width: 30%;
         flex: 5 0 auto;
-    }   
+    }  
+    
+    .apps {
+        flex-basis: 50%;
+    }
+
+    .apps:first-child {
+        flex-basis: 100%;
+    }
+
 }
 
 /* ---------- MEDIA QUERY FOR PROFILE PHOTO ---------- */
@@ -33,6 +55,10 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
+    }
+
+    .apps {
+        padding: 0 10px 0 0;
     }
 
     header h1, footer h2 {
@@ -75,11 +101,6 @@
 
     #applications {
         padding: 0;
-    }
-
-    .apps {
-        padding: 0;
-        flex-basis: 100%;
     }
 
     .apps:first-child {
