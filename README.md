@@ -7,7 +7,7 @@ This allows collaborators and potential employers to navigate through my work & 
 
 ## Application Details
 
-Application is optimized for the following screen sizes: 575px, 768px, and 1200px.
+Application is optimized for the following screen sizes: 575px, 768px, and 1200px. Developed on Google Chrome (v. 99.0.4844.51)
 
 ### Technologies Used
 - HTML
