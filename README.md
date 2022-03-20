@@ -7,7 +7,7 @@ This allows collaborators and potential employers to navigate through my work & 
 
 ## Application Details
 
-Application is optimized for the following screen sizes: 575px, 768px, and 1200px. Developed on Google Chrome (v. 99.0.4844.51)
+Application is optimized for the following screen sizes: 575px, 768px, and 1250px. Developed on Google Chrome (v. 99.0.4844.51)
 
 ### Technologies Used
 - HTML
@@ -41,5 +41,5 @@ Initial Wireframe of Application:
 [(Link to deployed appliation)](https://emmazart.github.io/emma-olson-rossow-portfilio/)
 
 Screenshot of deployed application in 575px window:
-![Portfolio Application Screenshot](./assets/images/portfilio-screenshot.png)
+![Portfolio Application Screenshot](./assets/images/emmazart.github.io_emma-olson-rossow-portfilio_.png)
 
