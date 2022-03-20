@@ -58,11 +58,6 @@
 
 /* ---------- MEDIA QUERY FOR TABLETS AND SMALLER ---------- */
 @media screen and (max-width: 750px) {
-    #applications {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
 
     .apps {
         padding: 0 10px 0 0;

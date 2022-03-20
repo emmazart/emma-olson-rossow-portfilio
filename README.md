@@ -1,5 +1,4 @@
 # Emma Olson-Rossow Professional Portfolio
-    TESTING TESTING PUSH
 
 ## Purpose
 The purpose of this project is to create a professional portfolio showcasing my skills and displaying a easy to navigate record of my developed & deployed applications.

@@ -125,7 +125,7 @@ header nav ul li a, footer ul li a {
 }
 
 
-/* ---------- APPLICATION STYLES ----------*/
+/* ---------- WORK / APPLICATION STYLES ----------*/
 
 #applications {
     display: flex;
@@ -175,6 +175,7 @@ header nav ul li a, footer ul li a {
  */
 
 /* ---------- FOOTER STYLES ----------*/
+
 #contact-me {
     color: var(--tertiary-color);
     background-color: var(--primary-color);
