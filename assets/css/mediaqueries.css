@@ -24,7 +24,7 @@
 }
 
 /* ---------- MEDIA QUERY FOR PROFILE PHOTO ---------- */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1215px) {
     #profile-photo img {
         max-width: 40%;
         flex: 5 0 auto;
@@ -88,7 +88,10 @@
     #profile-photo {
         flex-direction: column;
         text-align: center;
+    }
 
+    #about {
+        padding: 10px 0 0 0;
     }
 }
 
@@ -109,9 +112,9 @@
 
     #apps23, #apps45, .apps {
         align-self: center;
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
-        padding: 0;
+        padding: 0 5px 0 0;
     }
 
     .title {
@@ -150,7 +153,7 @@
 
     #profile-photo img {
         flex: 3 0 auto;
-        max-width: 65%;
+        max-width:100%;
         align-self: center;
         margin-bottom: 10px;
     }  

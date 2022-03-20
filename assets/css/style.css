@@ -7,8 +7,6 @@
 
 /* ---------- REMOVE BROSWER ENFORCED STYLES ----------*/
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 
@@ -32,7 +30,8 @@ body {
     width: 15%;
     height: 300px;
     border-right: 2px solid var(--primary-color);
-
+    flex-grow: 0;
+    flex-shrink: 0;
 }
 
 /* ---------- HEADER STYLES ----------*/
@@ -118,7 +117,6 @@ header nav ul li a, footer ul li a {
 #about-me h2, #work h2 {
     padding-right: 30px;
     margin-right: 20px;
-    flex: 1 0 auto;
 }
 
 #about {
@@ -133,8 +131,7 @@ header nav ul li a, footer ul li a {
     display: flex;
     padding-left: 80px;
     flex-direction: column;
-    flex: 1 1 auto;
-    width: 70%;
+    width: 100%;
 }
 
 #applications h3 {
